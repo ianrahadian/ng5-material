@@ -1,15 +1,15 @@
-# create new angular project
+# Ireate new angular project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
-> run `$ ng new ng-material`
+> run `$ng new ng-material`
 
-## install angular material packages
+## Install angular material packages
 
-`$ npm install @angular/material @angular/cdk --save`
+run `$npm install @angular/material @angular/cdk --save`
 
-## Code scaffolding
+## Install animation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `$npm install @angular/animation --save` 
 
 ## Build
 
