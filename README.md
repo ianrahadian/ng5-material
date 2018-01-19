@@ -39,9 +39,9 @@ open `src/app/app.module.ts`
 >  ....
 >
 >  imports: [
->    BrowserModule,
->    BrowserAnimationsModule,
->    MaterialModule
+>>    BrowserModule,
+>>>   BrowserAnimationsModule,
+>>>>  MaterialModule
 >  ],
 >  ....
 > })
