@@ -7,13 +7,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 run `$npm install @angular/material @angular/cdk --save`
 
-## Install animation
+## Install animation package
 
 Run `$npm install @angular/animations --save` 
 
-## Build
+## import animation package
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+open `src/app/app.module.ts` 
+> import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 ## Running unit tests
 
