@@ -35,16 +35,18 @@ open `src/app/app.module.ts`
 ## import materialmodule to app.module.ts
 
 >import { MaterialModule } from './material.module';
->@NgModule({
->  ....
->
->  imports: [
->>    BrowserModule,
->>>   BrowserAnimationsModule,
->>>>  MaterialModule
->  ],
->  ....
-> })
+```
+@NgModule({
+  ....
+
+ imports: [
+    BrowserModule,
+   BrowserAnimationsModule,
+  MaterialModule
+ ],
+ ....
+ })
+```
 ## install hammerjs package
 
 > npm install --save hammerjs
