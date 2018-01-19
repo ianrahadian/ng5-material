@@ -15,18 +15,18 @@ Run `$npm install @angular/animations --save`
 
 open `src/app/app.module.ts` 
 > import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+```
+@NgModule({
+....
 
->@NgModule({
->  ....
->
->  imports: [
->    BrowserModule,
->    BrowserAnimationsModule
->    
->  ],
->  ....
-> })
-
+ imports: [
+   BrowserModule,
+   BrowserAnimationsModule
+    
+ ],
+....
+})
+```
 ## create material module
 
 + material.module.ts
