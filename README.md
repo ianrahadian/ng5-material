@@ -1,4 +1,4 @@
-# Ireate new angular project
+# Create new angular project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 > run `$ng new ng-material`
@@ -9,7 +9,7 @@ run `$npm install @angular/material @angular/cdk --save`
 
 ## Install animation
 
-Run `$npm install @angular/animation --save` 
+Run `$npm install @angular/animations --save` 
 
 ## Build
 
