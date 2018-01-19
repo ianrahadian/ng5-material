@@ -40,8 +40,8 @@ open `src/app/app.module.ts`
   ....
 
  imports: [
-    BrowserModule,
-   BrowserAnimationsModule,
+  BrowserModule,
+  BrowserAnimationsModule,
   MaterialModule
  ],
  ....
