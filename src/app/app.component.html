@@ -11,9 +11,9 @@
 </mat-toolbar>
   <mat-card>
     <mat-form-field class="example-full-width">
-      <input matInput [(ngModel)]="answer" placeholder="Your goals" value="">
+      <input matInput [(ngModel)]="answer" placeholder="Your goals" value=""/>
     </mat-form-field>
-    <button mat-raised-button color="warn" (click)="showAnswer(" >Answer me</button>
+    <button mat-raised-button color="warn" (click)="showAnswer()" >Answer me</button>
     <mat-spinner [style.display]="showSpinner ? 'block' : 'none' "></mat-spinner>
   </mat-card>
 
