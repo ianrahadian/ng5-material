@@ -9,12 +9,17 @@
       <button mat-button>Contact</button>
     </mat-toolbar-row>
 </mat-toolbar>
-<div class="basic-container">
-  <p>
-    <button mat-raised-button color="warn">My Button</button>
+  <mat-card>
+    <mat-form-field class="example-full-width">
+      <input matInput [(ngModel)]="answer" placeholder="Your goals" value="">
+    </mat-form-field>
+    <button mat-raised-button color="warn" (click)="showAnswer(" >Answer me</button>
+    <mat-spinner [style.display]="showSpinner ? 'block' : 'none' "></mat-spinner>
+  </mat-card>
 
-  </p>
-  <span class="version-info">Current build: {{version.full}}</span>
-</div>
+  <mat-card *ngIf="answerDisplay">
+    <h1>{{ answerDisplay }}, you're damn right!</h1>
+  </mat-card>
+
 
 
