@@ -1,9 +1,9 @@
 # create new angular project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
- run `$ ng new ng-material`
+> run `$ ng new ng-material`
 
-## install angular material
+## install angular material packages
 
 `$ npm install @angular/material @angular/cdk --save`
 
