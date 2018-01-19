@@ -1,10 +1,11 @@
-# Ng5Material
+# create new angular project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+ run `$ ng new ng-material`
 
-## Development server
+## install angular material
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+`$ npm install @angular/material @angular/cdk --save`
 
 ## Code scaffolding
 
