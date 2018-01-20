@@ -50,3 +50,4 @@ open `src/app/app.module.ts`
 ## install hammerjs package
 
 > npm install --save hammerjs
+
